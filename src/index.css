@@ -14,8 +14,13 @@ code {
 .headerClass{
   font-family: Tahoma;
 }
-.ag-header-cell
+.div1 .ag-header-cell
 {
   font-family: tahoma;
   font-size: 15px;
+}
+.div2 .ag-header-cell
+{
+  font-family: tahoma;
+  font-size: 25px;
 }
