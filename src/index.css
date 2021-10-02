@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.headerClass{
+  font-family: Tahoma;
+}
+.ag-header-cell
+{
+  font-family: tahoma;
+  font-size: 15px;
+}
