@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import "ag-grid-community/dist/styles/ag-grid.css"
 import "ag-grid-community/dist/styles/ag-theme-balham.css"
 import {AgGridReact} from 'ag-grid-react'
+import { AutoScrollService } from 'ag-grid-community';
 export default class App extends Component {
   constructor(props){
     super(props);
@@ -20,8 +21,9 @@ export default class App extends Component {
   }
   render() {
     return (
-      <div className="ag-theme-balham" style={{direction:"rtl", width:700,height:600}}>
-        <AgGridReact columnDefs={this.state.columnDefs} rowData={this.state.rowData} />
+      <div className="ag-theme-balham" style={{margin:"0 auto", direction:"rtl", width:700,height:600}}>
+        <br />
+        <AgGridReact enableRtl="true" columnDefs={this.state.columnDefs} rowData={this.state.rowData} />
 
       </div>
     )
